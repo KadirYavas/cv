@@ -1,48 +1,102 @@
-.row li{
+.row li {
     list-style: none;
 }
-.body{
+
+.body {
     background-color: #555D5E;
 }
-.body li{
+
+.body li {
     list-style: none;
 }
-body{
+
+body {
     margin: 0px;
 }
-.image{
+
+.image {
     background-color: #f8f8f8;
 }
-.p-1{
+
+.p-1 {
     background-color: #677273;
 }
-.p-1 .d-flex a{
+
+.p-1 .d-flex a {
     color: #B5C8CA;
     text-decoration: none;
 }
-.p-1 a:hover{
+
+.p-1 a:hover {
     color: white;
 }
-.exp{
+
+.exp {
     background-color: #F1F1F1;
 }
-.expe{
+
+.expe {
     background-color: #FC6F5C;
     color: white;
     font-size: 62px;
 }
-.dark{
+
+.dark {
     background-color: #424242;
 }
-.img{
+
+.img {
     width: 15%;
     float: right;
     margin-top: 15px;
 }
-.pt{
+
+.pt {
     width: 25vw;
     display: inline-block;
 }
-.hr{
+
+.hr {
     background-color: #ffe6b3;
+}
+
+.typewriter {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+        typing 1.9s steps(100, end),
+        blink-caret .6s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 25%
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange
+    }
+}
+
+.rotate:hover
+{
+    transform: rotateZ(-360deg);
+    animation: 2s infinite;
 }
