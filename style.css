@@ -1,0 +1,48 @@
+.row li{
+    list-style: none;
+}
+.body{
+    background-color: #555D5E;
+}
+.body li{
+    list-style: none;
+}
+body{
+    margin: 0px;
+}
+.image{
+    background-color: #f8f8f8;
+}
+.p-1{
+    background-color: #677273;
+}
+.p-1 .d-flex a{
+    color: #B5C8CA;
+    text-decoration: none;
+}
+.p-1 a:hover{
+    color: white;
+}
+.exp{
+    background-color: #F1F1F1;
+}
+.expe{
+    background-color: #FC6F5C;
+    color: white;
+    font-size: 62px;
+}
+.dark{
+    background-color: #424242;
+}
+.img{
+    width: 15%;
+    float: right;
+    margin-top: 15px;
+}
+.pt{
+    width: 25vw;
+    display: inline-block;
+}
+.hr{
+    background-color: #ffe6b3;
+}
